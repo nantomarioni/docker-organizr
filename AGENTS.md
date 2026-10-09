@@ -33,9 +33,6 @@ upstream diff small.
 > see `../homelab-manifests/apps/organizr`). This repo also clones *upstream*
 > `causefx/Organizr`, not the fork — to ship fork changes from here you would
 > change the clone URL/branch in `40-install`.
->
-> A stale `.git-rewrite/` directory (leftover of an aborted
-> `git filter-branch`) sits untracked at the repo root; safe to delete.
 
 ## How to run things
 
